@@ -1,6 +1,10 @@
 import React, { useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import hoverEffect from 'hover-effect'
+import number1 from '../../images/number 1.webp'
+import number2 from '../../images/number 2.webp'
+import number3 from '../../images/number 3.webp'
+import myDistortionImage from '../../images/myDistortionImage.webp'
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
@@ -11,14 +15,14 @@ const Project = p => {
         offScreen: { y: 70, opacity: 0 },
         onScreen: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 200, damping: 30, duration: 0.8 } },
     }
-    const numbers = ["https://res.cloudinary.com/db1nlq5lv/image/upload/v1663178118/number_1_zznarh.webp", "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663178117/number_2_kn4028.webp", "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663178119/number_3_popiqr.webp"]
+    const numbers = [number1, number2, number3]
     useEffect(() => {
         new hoverEffect({
             parent: imageRef.current,
             intensity: 0.3,
             image1: p.image1,
             image2: p.image2,
-            displacementImage: "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166364/myDistortionImage_ddbdw9.webp",
+            displacementImage: myDistortionImage,
         })
     }, [p.image1, p.image2])
     return (

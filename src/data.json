@@ -5,8 +5,8 @@
             "fName": "Benedict",
             "lName": "Anumaka",
             "info": "A somewhat minimalist and creative portfolio website for a creative UI designer and UX researcher who loves minimalist designs",
-            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/ben1_dkrm6v.webp",
-            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/ben2_nunhql.webp",
+            "image1": "/images/ben1.webp",
+            "image2": "/images/ben2.webp",
             "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
             "website": "https://benedict-a.netlify.app/",
             "tech": ["html5", "tailwindcss", "javascript"]
@@ -15,8 +15,8 @@
             "id": 2,
             "fName": "Iconator",
             "info": "A web app that allow users generate favicons of different sizes, formats and respective HTML code for easy implementation",
-            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166364/iconator1_lsjphf.webp",
-            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/iconator2_ifktrr.webp",
+            "image1": "/images/iconator1.webp",
+            "image2": "/images/iconator2.webp",
             "github": "https://github.com/zuri-training/Team-65-Favicon-gen",
             "website": "https://iconator.pythonanywhere.com/",
             "tech": ["html", "css", "javascript", "django", "postgresql"]
@@ -26,8 +26,8 @@
             "fName": "Oluwatobi",
             "lName": "Salau",
             "info": "A simple portfolio website for a frontend developer who loves minimalism and simplicity, with a touch of creativity",
-            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166368/toby1_nj83qv.webp",
-            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/toby2_m6i9in.webp",
+            "image1": "/images/toby1.webp",
+            "image2": "/images/toby2.webp",
             "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
             "tech": ["react.js", "tailwindcss", "framer motion"]
         }

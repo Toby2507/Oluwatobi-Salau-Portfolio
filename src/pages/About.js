@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { AiOutlineCaretRight } from "react-icons/ai";
+import myImg from '../images/oluwatobiSalau.webp'
 
 const About = () => {
     const variants = {
@@ -30,7 +31,7 @@ const About = () => {
                     viewport={{ once: true }}
                     className="relative w-48 h-48 rounded-xl lg:w-60 lg:h-60"
                 >
-                    <img src="https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166364/oluwatobiSalau_l78j1o.webp" alt="Oluwatobi Salau" className='absolute top-0 left-0 w-full h-full object-cover rounded-xl z-10' />
+                    <img src={myImg} alt="Oluwatobi Salau" className='absolute top-0 left-0 w-full h-full object-cover rounded-xl z-10' />
                     <motion.span
                         variants={{
                             initial: { x: '8px', y: '8px' },
