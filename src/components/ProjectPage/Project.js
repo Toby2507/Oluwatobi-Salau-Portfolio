@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import hoverEffect from 'hover-effect'
-import distortionImage from '../../images/myDistortionImage.jpg'
 import number1 from '../../images/number 1.svg'
 import number2 from '../../images/number 2.svg'
 import number3 from '../../images/number 3.svg'
@@ -22,7 +21,7 @@ const Project = p => {
             intensity: 0.3,
             image1: p.image1,
             image2: p.image2,
-            displacementImage: distortionImage,
+            displacementImage: "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663155819/myDistortionImage_rnvxqo.png",
         })
     }, [p.image1, p.image2])
     return (

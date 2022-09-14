@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import logo from '../../images/logo.png'
 import logo2 from '../../images/logo2.svg'
 import Submenu from './Submenu'
 import NavToggle from './NavToggle'
@@ -16,7 +15,7 @@ const Navbar = () => {
                 className="flex items-center justify-between bg-cardBg/95 border-2 border-cardBorder/95 rounded-2xl px-4 py-3"
             >
                 <div className='flex items-center space-x-2'>
-                    <button><a href="#home" aria-label='back to top'><img src={logo} alt="Oluwatobi Salau" className='w-12' /></a></button>
+                    <button><a href="#home" aria-label='back to top'><img src="https://res.cloudinary.com/db1nlq5lv/image/upload/v1663155819/logo_zg9btl.png" alt="Oluwatobi Salau" className='w-12' /></a></button>
                     <figure className="overflow-hidden">
                         <motion.img
                             animate={{ x: ["-100%", "0%"] }}
