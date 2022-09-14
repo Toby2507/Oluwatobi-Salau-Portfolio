@@ -1,0 +1,77 @@
+{
+    "Featured": [
+        {
+            "id": 1,
+            "fName": "Benedict",
+            "lName": "Anumaka",
+            "info": "A somewhat minimalist and creative portfolio website for a creative UI designer and UX researcher who loves minimalist designs",
+            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663097823/ben1_lu92wl.jpg",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663097934/ben2_kbqjup.png",
+            "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
+            "website": "https://benedict-a.netlify.app/",
+            "tech": ["html5", "tailwindcss", "javascript"]
+        },
+        {
+            "id": 2,
+            "fName": "Iconator",
+            "info": "A web app that allow users generate favicons of different sizes, formats and respective HTML code for easy implementation",
+            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663097940/iconator1_ytrnkl.jpg",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663097941/iconator2_rtgpio.png",
+            "github": "https://github.com/zuri-training/Team-65-Favicon-gen",
+            "website": "https://iconator.pythonanywhere.com/",
+            "tech": ["html", "css", "javascript", "django", "postgresql"]
+        },
+        {
+            "id": 3,
+            "fName": "Oluwatobi",
+            "lName": "Salau",
+            "info": "A simple portfolio website for a frontend developer who loves minimalism and simplicity, with a touch of creativity",
+            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663097889/toby1_iyucxa.jpg",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663097881/toby2_ki5zn0.png",
+            "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
+            "tech": ["react.js", "tailwindcss", "framer motion"]
+        }
+    ],
+    "Notable": [
+        {
+            "id": 1,
+            "title": "FrontEnd Only Interactive Comment App",
+            "info": "A single-page comment section app using React.JS, react hooks and Context API and TailwindCSS. The design was from a FrontEndMentor challenge.",
+            "github": "https://github.com/Toby2507/interactive-comment-app",
+            "website": "https://reactinteractivecomments.netlify.app/",
+            "tech": ["React.JS", "TailwindCSS"]
+        },
+        {
+            "id": 2,
+            "title": "FrontEnd Only Interactive Credit Card Generator",
+            "info": "A single-page credit card generator app using React.JS, useReducer Hook and Context API for state management. The design was from a FrontEndMentor challenge.",
+            "github": "https://github.com/Toby2507/interactive-card-react",
+            "website": "https://reactcreditcardgenerator.netlify.app/",
+            "tech": ["React.JS", "TailwindCSS"]
+        },
+        {
+            "id": 3,
+            "title": "E-commerce Product Page and Cart",
+            "info": "A responsive e-commerce product page and a functional cart built with HTML5, TailwindCSS and JavaScript and an OOP approach.",
+            "github": "https://github.com/Toby2507/E-Commerce-Product-Page",
+            "website": "https://toby2507.github.io/E-Commerce-Product-Page/",
+            "tech": ["HTML5", "TailwindCSS", "JavaScript", "OOP"]
+        },
+        {
+            "id": 4,
+            "title": "Interactive Todo App",
+            "info": "A single-page todo app built with HTML5, TailwindCSS, JavaScript and the OOP approach in mind. Implemented a dark mode and drag and drop functionality.",
+            "github": "https://github.com/Toby2507/todo-app-frontend-",
+            "website": "https://toby2507.github.io/todo-app-frontend-/",
+            "tech": ["HTML5", "TailwindCSS", "JavaScript", "OOP"]
+        },
+        {
+            "id": 5,
+            "title": "Cocktail DATABASE",
+            "info": "A web app to help search for the preparation methods of your favourite cocktails. Built with React.JS, CSS3 and thecocktaildb API",
+            "github": "https://github.com/Toby2507/temp-cocktail-react",
+            "website": "https://tempreactcocktail.netlify.app/",
+            "tech": ["React.JS", "CSS3", "API"]
+        }
+    ]
+}
