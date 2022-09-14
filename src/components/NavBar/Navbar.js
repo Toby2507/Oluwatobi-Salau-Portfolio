@@ -1,21 +1,22 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import logo2 from '../../images/logo2.svg'
+import logo2 from '../../images/logo2.webp'
 import Submenu from './Submenu'
 import NavToggle from './NavToggle'
 import { useGlobalContext } from '../../context'
 
 const Navbar = () => {
     const { isOpen } = useGlobalContext()
+    // https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/logo_rpx9cf.webp
     return (
         <nav className="fixed top-12 left-0 right-0 w-[90vw] max-w-[660px] mx-auto z-20">
             <motion.div
                 initial={false}
                 animate={isOpen ? 'open' : 'closed'}
-                className="flex items-center justify-between bg-cardBg/95 border-2 border-cardBorder/95 rounded-2xl px-4 py-3"
+                className="flex items-center justify-between bg-cardBg/95 border-2 border-cardBorder/95 rounded-2xl px-4 pb-[1px]"
             >
                 <div className='flex items-center space-x-2'>
-                    <button><a href="#home" aria-label='back to top'><img src="https://res.cloudinary.com/db1nlq5lv/image/upload/v1663155819/logo_zg9btl.png" alt="Oluwatobi Salau" className='w-12' /></a></button>
+                    <button><a href="#home" aria-label='back to top'><img src="https://res.cloudinary.com/db1nlq5lv/image/upload/v1663174033/logo_b4rahv.webp" alt="Oluwatobi Salau" className='w-14 h-14' /></a></button>
                     <figure className="overflow-hidden">
                         <motion.img
                             animate={{ x: ["-100%", "0%"] }}
@@ -26,7 +27,7 @@ const Navbar = () => {
                                 repeatDelay: 5,
                                 repeatType: "reverse"
                             }}
-                            src={logo2} alt="Oluwatobi Salau" className='w-32 mt-2'
+                            src={logo2} alt="Oluwatobi Salau" className='w-32 h-4 mt-2'
                         />
                     </figure>
                 </div>

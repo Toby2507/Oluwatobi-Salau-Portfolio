@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import hoverEffect from 'hover-effect'
-import number1 from '../../images/number 1.svg'
-import number2 from '../../images/number 2.svg'
-import number3 from '../../images/number 3.svg'
+import number1 from '../../images/number 1.webp'
+import number2 from '../../images/number 2.webp'
+import number3 from '../../images/number 3.webp'
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
@@ -21,7 +21,7 @@ const Project = p => {
             intensity: 0.3,
             image1: p.image1,
             image2: p.image2,
-            displacementImage: "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663155819/myDistortionImage_rnvxqo.png",
+            displacementImage: "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166364/myDistortionImage_ddbdw9.webp",
         })
     }, [p.image1, p.image2])
     return (
@@ -44,8 +44,8 @@ const Project = p => {
                         <h3 className="text-4xl text-white capitalize font-bold lg:text-5xl">{p.fName}<br />{p.lName && <span className="block text-3xl -mt-2 lg:text-4xl">{p.lName}</span>}</h3>
                         <p className="text-sm font-medium text-white lg:w-10/12">{p.info}</p>
                         <div className="flex space-x-3 items-center">
-                            {p.github && <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} href={p.github} rel='noreferrer' target='_blank' aria-label='github'><button><FiGithub className='text-white text-xl bg-transparent hover:text-primaryGreen' /></button></motion.a>}
-                            {p.website && <motion.a whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} href={p.website} rel='noreferrer' target='_blank' aria-label='website'><button><HiOutlineExternalLink className='text-white text-xl bg-transparent hover:text-primaryGreen' /></button></motion.a>}
+                            {p.github && <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} aria-label="github"><a href={p.github} rel='noreferrer' target='_blank' aria-label='github'><FiGithub className='text-xl text-accentGray hover:text-primaryGreen' /></a></motion.button>}
+                            {p.website && <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} aria-label="website"><a href={p.website} rel='noreferrer' target='_blank' aria-label='website'><HiOutlineExternalLink className='text-xl text-accentGray hover:text-primaryGreen' /></a></motion.button>}
                         </div>
                         <div className="flex items-center justify-center space-x-2 w-full md:hidden">
                             {p.tech.map((tech, i) => {

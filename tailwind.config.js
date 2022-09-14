@@ -21,7 +21,7 @@ module.exports = {
         secondary: ["Fira Sans", "sans-serif"],
       },
       backgroundImage: {
-        mainBg: "url('https://res.cloudinary.com/db1nlq5lv/image/upload/v1663155828/mainBg_xyehdv.png')",
+        mainBg: "url('https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166366/mainBg_n6739y.webp')",
         cardGradient: "linear-gradient(135deg, rgba(25, 25, 25, 0.4), rgba(30, 30, 30, 0.4))",
         preloaderBefore: "linear-gradient(180deg, rgba(5, 5, 5, 0.5) 20%, rgba(0,0,0,0) 40%)",
         preloaderAfter: "linear-gradient(360deg, rgba(5, 5, 5, 0.5) 10%, rgba(0,0,0,0) 30%)"
