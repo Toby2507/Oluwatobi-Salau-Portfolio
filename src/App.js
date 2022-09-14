@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   React.useEffect(() => {
-    console.clear()
+    console.clear();
   }, [])
   return (
     <div className="w-screen bg-black min-h-screen font-primary overflow-clip">

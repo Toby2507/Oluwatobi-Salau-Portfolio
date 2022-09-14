@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import logo2 from '../../images/logo2.webp'
 import Submenu from './Submenu'
 import NavToggle from './NavToggle'
 import { useGlobalContext } from '../../context'
@@ -27,7 +26,7 @@ const Navbar = () => {
                                 repeatDelay: 5,
                                 repeatType: "reverse"
                             }}
-                            src={logo2} alt="Oluwatobi Salau" className='w-32 h-4 mt-2'
+                            src="https://res.cloudinary.com/db1nlq5lv/image/upload/v1663178120/logo2_enndil.webp" alt="Oluwatobi Salau" className='w-32 h-[13px] mt-2'
                         />
                     </figure>
                 </div>
