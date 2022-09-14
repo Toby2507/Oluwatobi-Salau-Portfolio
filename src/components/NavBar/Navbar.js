@@ -30,7 +30,7 @@ const Navbar = () => {
                         />
                     </figure>
                 </div>
-                <button><NavToggle /></button>
+                <button aria-label='toggle submenu'><NavToggle /></button>
             </motion.div>
             <Submenu />
         </nav>
