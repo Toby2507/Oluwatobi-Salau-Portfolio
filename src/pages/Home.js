@@ -1,8 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { GoPrimitiveDot } from "react-icons/go";
+import { useProgressiveImage } from '../context';
+import bgImg from '../images/mainBg.webp'
 
 const Home = () => {
+    const loaded = useProgressiveImage(bgImg)
     const variants = {
         offScreen: { y: -40, opacity: 0 },
         onScreen: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 200, damping: 30, duration: 0.8 } },
@@ -30,7 +33,7 @@ const Home = () => {
                 <motion.p variants={variants} className="text-accentGray text-base text-center font-medium pb-6 lg:text-left">I curate experiences with front-end and back-end technologies.</motion.p>
                 <motion.button variants={variants} className="bg-primaryGreen border-2 border-transparent rounded-3xl text-black text-base font-medium uppercase tracking-widest py-3 px-12 hover:bg-transparent hover:text-primaryGreen hover:border-primaryGreen"><a href="mailto:oluwatobisalau2000@gmail.com" rel="noreferrer" target="_blank">hire me</a></motion.button>
             </motion.div>
-            <div className="w-full h-full bg-mainBg bg-no-repeat bg-center bg-cover"></div>
+            <div className="w-full h-full bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${loaded || null})`, backgroundColor: `${loaded ? "" : "#000"}` }}></div>
         </section>
     )
 }

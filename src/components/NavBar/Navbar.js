@@ -8,7 +8,6 @@ import logo2 from '../../images/logo2.webp'
 
 const Navbar = () => {
     const { isOpen } = useGlobalContext()
-    // https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/logo_rpx9cf.webp
     return (
         <nav className="fixed top-12 left-0 right-0 w-[90vw] max-w-[660px] mx-auto z-20">
             <motion.div

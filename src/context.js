@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { useCycle } from 'framer-motion'
 import data from './data.json'
 
@@ -11,3 +11,13 @@ export const AppProvider = ({ children }) => {
 }
 
 export const useGlobalContext = () => useContext(AppContext)
+
+export const useProgressiveImage = src => {
+    const [sourceLoaded, setSourceLoaded] = useState(null)
+    useEffect(() => {
+        const img = new Image()
+        img.src = src
+        img.onload = () => setSourceLoaded(src)
+    }, [src])
+    return sourceLoaded
+}
