@@ -9,7 +9,7 @@ const Contact = () => {
         onScreen: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 200, damping: 30, duration: 0.8 } },
     }
     return (
-        <section id='contact' className="flex flex-col space-y-12 items-center pt-40 min-h-screen pb-16">
+        <section id='contact' className="flex flex-col space-y-12 items-center pt-40 pb-60 md:pb-96">
             <motion.div
                 variants={variants}
                 initial='offScreen2'

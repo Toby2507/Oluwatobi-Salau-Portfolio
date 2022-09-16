@@ -32,6 +32,9 @@ module.exports = {
       borderRadius: {
         "2rem": "2rem",
         "5rem": "5rem"
+      },
+      screens: {
+        "short": { 'raw': '(max-height: 680px) and (min-width: 976px)' },
       }
     },
   },

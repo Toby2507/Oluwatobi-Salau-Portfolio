@@ -71,7 +71,7 @@ const About = () => {
                         whileInView='onScreen2'
                         viewport={{ once: true }}
                         className="text-sm text-white lg:text-base xl:w-11/12">
-                        When I’m not eye balls deep in code, you’ll find me cooking, reading, payling video games or most likely watching movies on netflix...yeah I’m a big movie lover lol.
+                        When I’m not eye balls deep in code, you’ll find me cooking, reading, playing video games or most likely watching movies on netflix...yeah I’m a big movie lover lol.
                     </motion.p>
                     <motion.p
                         variants={variants}

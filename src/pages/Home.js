@@ -22,7 +22,7 @@ const Home = () => {
                 viewport={{ once: true }}
                 role='banner'
                 id='home'
-                className="flex flex-col space-y-6 items-center justify-center min-h-screen md:pt-0 lg:items-start"
+                className="flex flex-col space-y-6 items-center justify-center min-h-screen short:space-y-4 short:pt-12 md:pt-0 lg:items-start"
             >
                 <motion.p variants={variants} className="text-white text-lg uppercase tracking-wider md:text-xl">hi there 👋🏼. i'm</motion.p>
                 <motion.span variants={variants} className="flex items-center text-white text-6xl font-bold tracking-[-4px] py-3 md:text-7xl">
