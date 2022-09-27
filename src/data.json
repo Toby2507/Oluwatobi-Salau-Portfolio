@@ -62,7 +62,7 @@
             "title": "Interactive Todo App",
             "info": "A single-page todo app built with HTML5, TailwindCSS, JavaScript and the OOP approach in mind. Implemented a dark mode and drag and drop functionality.",
             "github": "https://github.com/Toby2507/todo-app-frontend-",
-            "website": "https://toby2507.github.io/todo-app-frontend-/",
+            "website": "https://tobystodo.netlify.app/",
             "tech": ["HTML5", "TailwindCSS", "JavaScript", "OOP"]
         },
         {
