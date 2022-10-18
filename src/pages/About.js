@@ -55,7 +55,7 @@ const About = () => {
                         whileInView='onScreen2'
                         viewport={{ once: true }}
                         className="text-sm text-white lg:text-base xl:w-11/12">
-                        My interest in web development started back in 2019 when I tried to give my mom’s textile business an online presence. She had no money to hire a developer so I googled how to create a website and that’s how the obsession started lol.
+                        My interest in web development started back in 2017 when I tried to give my mom’s textile business an online presence. She had no money to hire a developer so I googled how to create a website and that’s how the obsession started lol.
                     </motion.p>
                     <motion.p
                         variants={variants}
@@ -89,11 +89,15 @@ const About = () => {
                         className="grid grid-cols-2 gap-1 w-full lg:w-9/12"
                     >
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />HTML5 / CSS3</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Python</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Node.JS</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />TailwindCSS</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Express</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />JavaScript(ES6+)</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Python</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Typescript</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Django</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />React.JS</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />PostGresDB</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />PostGres/MongoDB</li>
                     </motion.ul>
                 </div>
             </article>

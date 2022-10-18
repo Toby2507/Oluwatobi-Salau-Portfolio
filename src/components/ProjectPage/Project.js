@@ -4,6 +4,8 @@ import hoverEffect from 'hover-effect'
 import number1 from '../../images/number 1.webp'
 import number2 from '../../images/number 2.webp'
 import number3 from '../../images/number 3.webp'
+import number4 from '../../images/number 4.webp'
+import number5 from '../../images/number 5.webp'
 import myDistortionImage from '../../images/myDistortionImage.webp'
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -15,7 +17,7 @@ const Project = p => {
         offScreen: { y: 70, opacity: 0 },
         onScreen: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 200, damping: 30, duration: 0.8 } },
     }
-    const numbers = [number1, number2, number3]
+    const numbers = [number1, number2, number3, number4, number5]
     useEffect(() => {
         new hoverEffect({
             parent: imageRef.current,

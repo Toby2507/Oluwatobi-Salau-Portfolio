@@ -3,17 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
 .verticalWrite {
   writing-mode: vertical-lr;
 }
+
 .canvasref canvas {
   border-radius: 2rem;
   width: 100% !important;
   height: 100% !important;
 }
+
 @media (min-width: 976px) {
   .canvasref canvas {
     border-radius: 3rem;
