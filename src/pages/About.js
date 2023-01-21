@@ -1,14 +1,14 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { motion } from 'framer-motion';
 import { AiOutlineCaretRight } from "react-icons/ai";
-import myImg from '../images/oluwatobiSalau.webp'
+import myImg from '../images/oluwatobiSalau.webp';
 
 const About = () => {
     const variants = {
         offScreen: { y: 70, opacity: 0 },
         offScreen2: { y: 40, opacity: 0 },
         onScreen2: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 200, damping: 30, duration: 0.8 } },
-    }
+    };
     return (
         <section id='about' className="flex flex-col space-y-16 items-center pt-40 xl:space-y-16">
             <motion.div
@@ -47,7 +47,7 @@ const About = () => {
                         whileInView='onScreen2'
                         viewport={{ once: true }}
                         className="text-sm text-white lg:text-base xl:w-11/12">
-                        Hello! My name is Oluwatobi and I love to curate experiences using both frontend and backend technologies.
+                        Hello! My name is Toby and I love to curate experiences using both frontend and backend technologies.
                     </motion.p>
                     <motion.p
                         variants={variants}
@@ -89,20 +89,18 @@ const About = () => {
                         className="grid grid-cols-2 gap-1 w-full lg:w-9/12"
                     >
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />HTML5 / CSS3</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Node.JS</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />React.JS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />TailwindCSS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Express</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />JavaScript(ES6+)</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Python</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Node.JS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Typescript</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Django</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />React.JS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />PostGres/MongoDB</li>
                     </motion.ul>
                 </div>
             </article>
         </section>
-    )
-}
+    );
+};
 
-export default About
+export default About;

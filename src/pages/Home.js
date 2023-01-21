@@ -26,7 +26,7 @@ const Home = () => {
             >
                 <motion.p variants={variants} className="text-white text-lg uppercase tracking-wider md:text-xl">hi there 👋🏼. i'm</motion.p>
                 <motion.span variants={variants} className="flex items-center text-white text-6xl font-bold tracking-[-4px] py-3 md:text-7xl">
-                    <h1>oluwatobi</h1>
+                    <h1>toby</h1>
                     <GoPrimitiveDot className='text-2xl mt-8 -ml-1 md:mt-10 md:text-3xl md:-ml-2' />
                 </motion.span>
                 <motion.h2 variants={variants} className="text-primaryGreen text-lg font-medium uppercase tracking-tight md:text-2xl md:tracking-[5px]">full stack web developer 👨🏾‍💻</motion.h2>
