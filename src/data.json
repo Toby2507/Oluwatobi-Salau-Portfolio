@@ -2,21 +2,36 @@
     "Featured": [
         {
             "id": 1,
-            "fName": "Benedict",
-            "lName": "Anumaka",
-            "info": "A somewhat minimalist and creative portfolio website for a creative UI designer and UX researcher who loves minimalist designs",
-            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/ben1_dkrm6v.webp",
-            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/ben2_nunhql.webp",
-            "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
-            "website": "https://benedict-a.netlify.app/",
+            "fName": "T-Chat",
+            "info": "A fully functional chat app with authentication and authorization, real-time messaging, and a host of other functionalities. It's built with M.E.R.N stack and RTK/RTKQuery",
+            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1674304042/tchat1_e3wk0h.png",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1674304754/tchat2_qissdc.png",
+            "github": "https://github.com/Toby2507/T-Chat",
+            "website": "https://tobychat.netlify.app/",
             "tech": [
-                "html5",
-                "tailwindcss",
-                "javascript"
+                "m.e.r.n",
+                "rtk/rtkquery",
+                "typescript",
+                "websocket"
             ]
         },
         {
             "id": 2,
+            "fName": "TO's",
+            "lName": "Productivity",
+            "info": "A productivity app that helps users keep track of their daily tasks. It's fitted with authentication and authorization for easy access anywhere and anytime",
+            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1666123832/todoapp1_eleqg6.webp",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1666123840/todoapp2_jpx96t.webp",
+            "github": "https://github.com/Toby2507/toby-s-todo",
+            "website": "https://tobystodo.netlify.app/",
+            "tech": [
+                "m.e.r.n",
+                "tailwindcss",
+                "rtk/rtkquery"
+            ]
+        },
+        {
+            "id": 3,
             "fName": "Iconator",
             "info": "A web app that allow users generate favicons of different sizes, formats and respective HTML code for easy implementation",
             "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166364/iconator1_lsjphf.webp",
@@ -32,22 +47,22 @@
             ]
         },
         {
-            "id": 3,
-            "fName": "TO's",
-            "lName": "Productivity",
-            "info": "A productivity app that helps users keep track of their daily tasks. It's fitted with authentication and authorization for easy access anywhere and anytime",
-            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1666123832/todoapp1_eleqg6.webp",
-            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1666123840/todoapp2_jpx96t.webp",
-            "github": "https://github.com/Toby2507/toby-s-todo",
-            "website": "https://tobystodo.netlify.app/",
+            "id": 4,
+            "fName": "Benedict",
+            "lName": "Anumaka",
+            "info": "A somewhat minimalist and creative portfolio website for a creative UI designer and UX researcher who loves minimalist designs",
+            "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/ben1_dkrm6v.webp",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/ben2_nunhql.webp",
+            "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
+            "website": "https://benedict-a.netlify.app/",
             "tech": [
-                "m.e.r.n",
+                "html5",
                 "tailwindcss",
-                "rtk/rtkquery"
+                "javascript"
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "fName": "Oluwatobi",
             "lName": "Salau",
             "info": "A simple portfolio website for a frontend developer who loves minimalism and simplicity, with a touch of creativity",
