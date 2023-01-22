@@ -10,9 +10,9 @@
             "website": "https://tobychat.netlify.app/",
             "tech": [
                 "m.e.r.n",
-                "rtk/rtkquery",
+                "rtkquery",
                 "typescript",
-                "websocket"
+                "socket"
             ]
         },
         {
@@ -67,7 +67,7 @@
             "lName": "Salau",
             "info": "A simple portfolio website for a frontend developer who loves minimalism and simplicity, with a touch of creativity",
             "image1": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166368/toby1_nj83qv.webp",
-            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1663166363/toby2_m6i9in.webp",
+            "image2": "https://res.cloudinary.com/db1nlq5lv/image/upload/v1674389040/toby2_icfnqt.png",
             "github": "https://github.com/Toby2507/Benedict-Anumaka-portfolio",
             "tech": [
                 "react.js",

@@ -1,18 +1,18 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+import { motion } from 'framer-motion';
 import { GoPrimitiveDot } from "react-icons/go";
 import { useProgressiveImage } from '../context';
-import bgImg from '../images/mainBg.webp'
+import bgImg from '../images/mainBg.webp';
 
 const Home = () => {
-    const loaded = useProgressiveImage(bgImg)
+    const loaded = useProgressiveImage(bgImg);
     const variants = {
         offScreen: { y: -40, opacity: 0 },
         onScreen: { y: 0, opacity: 1, transition: { type: 'spring', stiffness: 200, damping: 30, duration: 0.8 } },
-    }
+    };
     const orchestrationVariant = {
         onScreen: { transition: { staggerChildren: 0.1, delayChildren: 8.5 } }
-    }
+    };
     return (
         <section id='home' className="min-h-screen grid items-center border-accentBlack lg:px-12 lg:grid-cols-2 lg:border-b xl:px-20">
             <motion.div
@@ -25,7 +25,7 @@ const Home = () => {
                 className="flex flex-col space-y-6 items-center justify-center min-h-screen short:space-y-4 short:pt-12 md:pt-0 lg:items-start"
             >
                 <motion.p variants={variants} className="text-white text-lg uppercase tracking-wider md:text-xl">hi there 👋🏼. i'm</motion.p>
-                <motion.span variants={variants} className="flex items-center text-white text-6xl font-bold tracking-[-4px] py-3 md:text-7xl">
+                <motion.span variants={variants} className="flex items-center text-white text-6xl font-bold tracking-[-4px] py-2 md:text-7xl">
                     <h1>toby</h1>
                     <GoPrimitiveDot className='text-2xl mt-8 -ml-1 md:mt-10 md:text-3xl md:-ml-2' />
                 </motion.span>
@@ -35,7 +35,7 @@ const Home = () => {
             </motion.div>
             <div className="w-full h-full bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${loaded || null})`, backgroundColor: `${loaded ? "" : "#000"}` }}></div>
         </section>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

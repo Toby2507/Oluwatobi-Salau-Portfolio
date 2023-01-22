@@ -1,14 +1,23 @@
 {
-    "name":"Oluwatobi Salau",
-    "short_name":"Toby",
+    "name": "Toby Salau",
+    "short_name": "Toby",
     "description": "Creative web developer who specializes in curating exceptional digital experiences with modern web technologies",
-    "icons":[
-        {"src":"/favicon192x192.png","sizes":"192x192","type":"image/png"},
-        {"src":"/favicon512x512.png","sizes":"512x512","type":"image/png", "purpose": "maskable"}
-        ],
-    "theme_color":"#000",
-    "background_color":"#000",
-    "display":"fullscreen",
+    "icons": [
+        {
+            "src": "/favicon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "theme_color": "#000",
+    "background_color": "#000",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/"
 }
