@@ -89,11 +89,13 @@ const About = () => {
                         className="grid grid-cols-2 gap-1 w-full lg:w-9/12"
                     >
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />HTML5 / CSS3</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />React.JS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />TailwindCSS</li>
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Express</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />JavaScript(ES6+)</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />React.JS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Node.JS</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Express</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Python</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Django</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />Typescript</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />PostGres/MongoDB</li>
                     </motion.ul>
