@@ -79,6 +79,19 @@
     "Notable": [
         {
             "id": 1,
+            "title": "Lendsqr Dashboard and Userpage",
+            "info": "A frontend implementation of the lendsqr test including the login page, dashboard and user page. Visit github page for 'how-to-use' instructions",
+            "github": "https://github.com/Toby2507/lendsqr-frontend",
+            "website": "https://oluwatobi-salau-lendsqr-fe-test.netlify.app/",
+            "tech": [
+                "React",
+                "Typescript",
+                "SCSS",
+                "react-table"
+            ]
+        },
+        {
+            "id": 2,
             "title": "FrontEnd Only Interactive Comment App",
             "info": "A single-page comment section app using React.JS, react hooks and Context API and TailwindCSS. The design was from a FrontEndMentor challenge.",
             "github": "https://github.com/Toby2507/interactive-comment-app",
@@ -89,7 +102,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "FrontEnd Only Interactive Credit Card Generator",
             "info": "A single-page credit card generator app using React.JS, useReducer Hook and Context API for state management. The design was from a FrontEndMentor challenge.",
             "github": "https://github.com/Toby2507/interactive-card-react",
@@ -100,7 +113,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "E-commerce Product Page and Cart",
             "info": "A responsive e-commerce product page and a functional cart built with HTML5, TailwindCSS and JavaScript and an OOP approach.",
             "github": "https://github.com/Toby2507/E-Commerce-Product-Page",
@@ -113,7 +126,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Cocktail DATABASE",
             "info": "A web app to help search for the preparation methods of your favourite cocktails. Built with React.JS, CSS3 and thecocktaildb API",
             "github": "https://github.com/Toby2507/temp-cocktail-react",
@@ -122,6 +135,18 @@
                 "React.JS",
                 "CSS3",
                 "API"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Landing Page with dropdown",
+            "info": "A very simple landing page built with HTML5, TailwindCSS and Vanilla JavaScript as a solution to a FrontendMentor challenge",
+            "github": "https://github.com/Toby2507/Intro-Section-with-Dropdown-Navigation",
+            "website": "https://toby2507.github.io/Intro-Section-with-Dropdown-Navigation/",
+            "tech": [
+                "HTML5",
+                "TailwindCSS",
+                "JavaScript"
             ]
         }
     ]
