@@ -88,7 +88,7 @@ const About = () => {
                         viewport={{ once: true }}
                         className="grid grid-cols-2 gap-1 w-full lg:w-9/12"
                     >
-                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />HTML5 / CSS3</li>
+                        <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />HTML / CSS(SCSS)</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />TailwindCSS</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />JavaScript(ES6+)</li>
                         <li className="flex space-x-2 items-center text-sm font-secondary tracking-wide text-accentGray lg:text-base"><AiOutlineCaretRight className='text-primaryGreen mr-2' />React.JS</li>
