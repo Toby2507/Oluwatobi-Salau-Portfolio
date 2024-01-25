@@ -17,7 +17,7 @@ const Navmenu = () => {
         <motion.ul variants={variants} className='flex flex-col gap-3 items-center'>
             {menuItems.map(item => <NavItems key={item.no} {...item} />)}
             <motion.li variants={itemsVariants}>
-                <a href="https://drive.google.com/file/d/1-y7AsdMeOzANHzdmZGLJCVtRdDA_XnwD/view?usp=sharing" rel='noreferrer' target='_blank' download="oluwatobi's resume" aria-label='resume'><FancyButton text='resume' /></a>
+                <a href="https://drive.google.com/file/d/1pvIWasWYvtpQ-2leW_JllHJ7JpXomMYR/view?usp=sharing" rel='noreferrer' target='_blank' download="oluwatobi's resume" aria-label='resume'><FancyButton text='resume' /></a>
             </motion.li>
         </motion.ul>
     );
